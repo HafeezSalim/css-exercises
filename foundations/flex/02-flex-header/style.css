@@ -32,11 +32,13 @@ a {
   display: flex;
 }
 
+/*
 .left-links,
 .logo,
 .right-links {
   flex: auto;
 }
+*/
 
 ul {
   display: flex;
@@ -54,4 +56,8 @@ li {
 
 .logo {
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
