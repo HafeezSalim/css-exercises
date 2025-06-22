@@ -32,14 +32,6 @@ a {
   display: flex;
 }
 
-/*
-.left-links,
-.logo,
-.right-links {
-  flex: auto;
-}
-*/
-
 ul {
   display: flex;
   align-items: center;
@@ -52,6 +44,8 @@ li {
   flex: auto;
   display: flex;
   justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .logo {
