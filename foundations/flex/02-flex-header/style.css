@@ -25,7 +25,9 @@ a {
 }
 
 /*my changes*/
-.header {
+.header,
+.left-links,
+.right-links {
   display: flex;
 }
 
@@ -37,5 +39,15 @@ ul {
 .left-links,
 .logo,
 .right-links {
+  flex: auto;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex: auto;
+}
+
+li {
   flex: auto;
 }
