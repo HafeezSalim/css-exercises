@@ -50,4 +50,6 @@ ul {
 
 li {
   flex: auto;
+  display: flex;
+  justify-content: center;
 }
