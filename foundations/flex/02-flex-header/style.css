@@ -29,19 +29,13 @@ a {
   display: flex;
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
 .left-links,
 .logo,
 .right-links {
   flex: auto;
 }
-
-/*
-.left-links,
-.right-links {
-  display: flex;
-}
-
-li {
-  flex: auto;
-}
-  */
