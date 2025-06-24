@@ -27,7 +27,34 @@ img {
 
 /*My Changes here*/
 
-.title {
+.title,
+.content {
   display: flex;
   justify-content: center;
+}
+
+.content {
+  margin-top: 32px;
+  gap: 52px;
+}
+
+.one,
+.two,
+.three,
+.four {
+  display:flex;
+  flex-direction: column;
+  flex: 0 1 200px;
+
+}
+
+img {
+  flex: 0 1 100px;
+  align-self: center;
+}
+
+.text {
+  margin-top:  5px;
+  flex-grow: 1;
+  text-align: center;
 }
